@@ -10,19 +10,19 @@ export default function Hero() {
 
   const slides = [
     {
-      image: "/images/hero-slide-1.jpeg",
+      image: "/images/ruby1.jpeg",
       title: "Creating inspiring workspaces",
       subtitle: "Transform your office in 75 days",
       highlightWords: { title: ["inspiring"], subtitle: ["Transform"] },
     },
     {
-      image: "/images/hero-slide-2.jpeg",
+      image: "/images/hoss1.jpeg",
       title: "From concept to completion",
       subtitle: "Your office, your way",
       highlightWords: { title: ["completion"], subtitle: ["Your"] },
     },
     {
-      image: "/images/hero-slide-3.jpeg",
+      image: "/images/ruby2.jpeg",
       title: "Design that drives success",
       subtitle: "Built for productivity & growth",
       highlightWords: { title: ["success"], subtitle: ["productivity"] },
