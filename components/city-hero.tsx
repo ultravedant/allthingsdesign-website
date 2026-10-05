@@ -1,5 +1,6 @@
 "use client"
 
+import Image from "next/image"
 import { motion } from "framer-motion"
 import { Button } from "@/components/ui/button"
 import { Input } from "@/components/ui/input"
@@ -13,14 +14,9 @@ interface CityHeroProps {
 export default function CityHero({ city, image }: CityHeroProps) {
   return (
     <section className="relative min-h-screen flex items-center">
-      <div
-        className="absolute inset-0 z-0"
-        style={{
-          backgroundImage: `url('${image}')`,
-          backgroundSize: "cover",
-          backgroundPosition: "center",
-        }}
-      />
+      <div className="absolute inset-0 z-0">
+        <Image src={image} alt={`Office interiors in ${city}`} fill priority sizes="100vw" className="object-cover object-center" />
+      </div>
       <div className="absolute inset-0 bg-black/40 z-10" />
 
       <div className="container mx-auto px-4 z-20 pt-20">

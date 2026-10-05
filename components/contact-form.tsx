@@ -267,7 +267,7 @@ export default function ContactForm() {
               className="order-1 lg:order-2"
             >
               <div className="relative h-[580px] overflow-hidden">
-                <Image src="/images/HOS-1.jpg" alt="Modern office interior" fill className="object-cover" />
+                <Image src="/images/HOS-1.jpg" alt="Modern office interior" fill sizes="(min-width: 1024px) 50vw, 100vw" className="object-cover" />
                 <div className="absolute inset-0 bg-black/20" />
                 <div className="absolute bottom-8 left-8 text-white">
                   <h3 className="text-2xl font-light mb-2">Ready to Transform Your Workspace?</h3>

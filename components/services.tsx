@@ -112,6 +112,7 @@ export default function Services() {
                   src={service.image || "/placeholder.svg"}
                   alt={service.title}
                   fill
+                  sizes="100vw"
                   className="object-cover"
                   priority={index === 0}
                 />

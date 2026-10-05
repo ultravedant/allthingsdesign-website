@@ -82,6 +82,7 @@ export default function ProjectsShowcase() {
                   src={project.image || "/placeholder.svg"}
                   alt={project.name}
                   fill
+                  sizes="(min-width: 1024px) 33vw, (min-width: 768px) 50vw, 100vw"
                   className="object-cover transition-transform duration-700 group-hover:scale-105"
                 />
                 <div className="absolute inset-0 bg-black/0 group-hover:bg-black/20 transition-all duration-300" />

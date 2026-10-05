@@ -30,7 +30,7 @@ export default function NaviMumbai() {
       <WhyChooseSection city="Navi Mumbai" />
       <CityProjects city="Navi Mumbai" projects={cityProjects} />
       <PricingSection city="Navi Mumbai" />
-      <CityCTA city="Navi Mumbai" image="/images/office-interior-2.png" />
+      <CityCTA city="Navi Mumbai" image="/images/office-interior-2.jpg" />
     </div>
   )
 }

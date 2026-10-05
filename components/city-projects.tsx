@@ -68,7 +68,7 @@ export default function CityProjects({ city, projects }: CityProjectsProps) {
             >
               <div className="w-full md:w-1/2">
                 <div className="relative h-64 w-full rounded-lg overflow-hidden shadow-lg">
-                  <Image src={project.image || "/placeholder.svg"} alt={project.name} fill className="object-cover" />
+                  <Image src={project.image || "/placeholder.svg"} alt={project.name} fill sizes="(min-width: 768px) 50vw, 100vw" className="object-cover" />
                 </div>
               </div>
               <div className="w-full md:w-1/2">

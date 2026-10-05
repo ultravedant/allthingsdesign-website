@@ -20,7 +20,7 @@ export default function Bangalore() {
       name: "Startup Incubator",
       description:
         "A flexible and dynamic office environment designed for a startup incubator in Bangalore's tech district, supporting growth and innovation.",
-      image: "/images/office-interior-6.png",
+      image: "/images/office-interior-6.jpg",
     },
   ]
 

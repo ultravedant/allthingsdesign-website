@@ -26,11 +26,11 @@ export default function Chennai() {
 
   return (
     <div className="min-h-screen bg-white">
-      <CityHero city="Chennai" image="/images/office-interior-2.png" />
+      <CityHero city="Chennai" image="/images/office-interior-2.jpg" />
       <WhyChooseSection city="Chennai" />
       <CityProjects city="Chennai" projects={cityProjects} />
       <PricingSection city="Chennai" />
-      <CityCTA city="Chennai" image="/images/office-interior-3.png" />
+      <CityCTA city="Chennai" image="/images/office-interior-3.jpg" />
     </div>
   )
 }

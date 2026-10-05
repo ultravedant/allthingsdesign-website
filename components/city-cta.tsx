@@ -53,7 +53,7 @@ export default function CityCTA({ city, image }: CityCTAProps) {
             className="order-1 lg:order-2"
           >
             <div className="relative h-80 lg:h-96 rounded-lg overflow-hidden shadow-xl">
-              <Image src={image || "/placeholder.svg"} alt={`Office design in ${city}`} fill className="object-cover" />
+              <Image src={image || "/placeholder.svg"} alt={`Office design in ${city}`} fill sizes="(min-width: 1024px) 50vw, 100vw" className="object-cover" />
               <div className="absolute inset-0 bg-gradient-to-t from-black/50 to-transparent flex items-end">
                 <div className="p-6">
                   <p className="text-white text-xl font-light">Creating inspiring workspaces in {city}</p>

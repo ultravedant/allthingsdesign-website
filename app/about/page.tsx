@@ -30,7 +30,7 @@ export default function About() {
       id: 4,
       name: "Sneha Reddy",
       position: "Design Consultant",
-      image: "/images/office-interior-4.png",
+      image: "/images/office-interior-4.jpg",
       bio: "Sneha brings fresh perspectives to our design process, focusing on ergonomic solutions and employee well-being.",
     },
   ]
@@ -111,7 +111,7 @@ export default function About() {
             </motion.div>
 
             <motion.div variants={itemVariants} className="relative h-96 overflow-hidden rounded-lg">
-              <Image src="/images/gallery-8.jpg" alt="Our design process" fill className="object-cover" />
+              <Image src="/images/gallery-8.jpg" alt="Our design process" fill sizes="(min-width: 1024px) 50vw, 100vw" className="object-cover" />
             </motion.div>
           </motion.div>
         </div>
@@ -198,7 +198,7 @@ export default function About() {
                 className="bg-white rounded-lg overflow-hidden shadow-lg hover:shadow-xl transition-all duration-500 hover:scale-105 w-full max-w-xs"
               >
                 <div className="relative h-64 overflow-hidden">
-                  <Image src={member.image || "/placeholder.svg"} alt={member.name} fill className="object-cover" />
+                  <Image src={member.image || "/placeholder.svg"} alt={member.name} fill sizes="320px" className="object-cover" />
                 </div>
                 <div className="p-6">
                   <h3 className="text-xl font-medium mb-2 text-black">{member.name}</h3>

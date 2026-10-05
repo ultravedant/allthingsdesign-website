@@ -73,6 +73,7 @@ export default function ClientsSection() {
                     src={client.logo || "/placeholder.svg"}
                     alt={client.alt}
                     fill
+                    sizes="160px"
                     className="object-cover green hover:grayscale-0 transition-all duration-300"
                   />
                 </div>
@@ -85,6 +86,7 @@ export default function ClientsSection() {
                     src={client.logo || "/placeholder.svg"}
                     alt={client.alt}
                     fill
+                    sizes="160px"
                     className="object-cover green hover:grayscale-0 transition-all duration-300"
                   />
                 </div>
