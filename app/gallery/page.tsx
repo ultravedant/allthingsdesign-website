@@ -5,7 +5,7 @@ import Image from "next/image"
 
 export default function Gallery() {
   const projects = [
-  {
+ {
   id: 1,
   description: "Modern spaces for collaborative excellence",
   image: "/images/ruby1.jpeg",
@@ -17,106 +17,111 @@ export default function Gallery() {
 },
 {
   id: 3,
+  description: "Productivity-focused environments for developers",
+  image: "/images/pluto.jpg",
+},
+{
+  id: 4,
   description: "Functional spaces for evolving work cultures",
   image: "/images/ruby3.jpeg",
 },
 {
-  id: 4,
+  id: 5,
   description: "Innovative spaces for connected teams",
   image: "/images/ruby4.jpeg",
 },
 {
-  id: 5,
+  id: 6,
   description: "Purpose-built spaces for productivity and collaboration",
   image: "/images/ruby5.jpeg",
 },
 {
-  id: 6,
+  id: 7,
   description: "A premium Logitech showcase of innovation and style",
   image: "/images/logi1.jpeg",
 },
 {
-  id: 7,
+  id: 8,
   description: "Collaborative spaces for smarter business conversations",
   image: "/images/logi2.jpeg",
 },
 {
-  id: 8,
+  id: 9,
   description: "Designing for Diversity and Experience, Designing for Efficiency and Adaptability",
   image: "/images/cogo.jpg",
 },
 {
-  id: 9,
+  id: 10,
   description: "Designing for Diversity and Experience",
   image: "/images/elr-2.jpg",
 },
 {
-  id: 10,
+  id: 11,
   description: "Connecting Nature with Modern Workspaces",
   image: "/images/HOS-1.jpg",
 },
 {
-  id: 11,
+  id: 12,
   description: "Sophisticated Spaces for Leadership and Growth",
   image: "/images/HOS-2.jpg",
 },
 {
-  id: 12,
+  id: 13,
   description: "Modern workspaces for innovation and collaboration",
   image: "/images/THUB-1.jpg",
 },
 {
-  id: 13,
+  id: 14,
   description: "Flexible environments for dynamic teams",
   image: "/images/THUB-2.jpg",
 },
 {
-  id: 14,
+  id: 15,
   description: "Professional spaces for legal excellence",
   image: "/images/dentos.jpg",
 },
 {
-  id: 15,
+  id: 16,
   description: "Healing environments for wellness professionals",
   image: "/images/OMR-1.jpeg",
 },
 {
-  id: 16,
+  id: 17,
   description: "Inspiring environments for creative minds",
   image: "/images/gallery-9.jpg",
 },
 {
-  id: 17,
+  id: 18,
   description: "Trust-building spaces for financial professionals",
   image: "/images/elr-1.jpg",
 },
 {
-  id: 18,
+  id: 19,
   description: "Scalable spaces for growing businesses",
   image: "/images/gallery-2.jpeg",
 },
 {
-  id: 19,
+  id: 20,
   description: "Sophisticated spaces for high-stakes decisions",
   image: "/images/gallery-3.jpeg",
 },
 {
-  id: 20,
+  id: 21,
   description: "Productivity-focused environments for developers",
   image: "/images/gallery-4.jpeg",
 },
 {
-  id: 21,
+  id: 22,
   description: "Dynamic spaces for brand storytelling",
   image: "/images/gallery-5.jpg",
 },
 {
-  id: 22,
+  id: 23,
   description: "Research-driven spaces for medical innovation",
   image: "/images/gallery-6.jpg",
 },
 {
-  id: 23,
+  id: 24,
   description: "Experimental spaces for breakthrough ideas",
   image: "/images/gallery-7.jpg",
 },
